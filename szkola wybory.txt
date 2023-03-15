@@ -1,53 +1,53 @@
-Czy większość swojego czasu wolnego spędzasz z innymi ludźmi? (rodzina , znajomi) 
+1. Czy większość swojego czasu wolnego spędzasz z innymi ludźmi? (rodzina , znajomi) 
 klasa humanistyczna, dziennikarsko - medialna, straży granicznej, szkoła branżowa
 
-Czy większość swojego czasu wolnego poświęcasz na aktywności w internecie, gry komputerowe? (komórka, komputer) 
+2. Czy większość swojego czasu wolnego poświęcasz na aktywności w internecie, gry komputerowe? (komórka, komputer) 
 klasa biznesowa, dziennikarsko medialna, branżowa,
 
-Czy interesujesz się sytuacją gospodarczą w Polsce lub na świecie? 
+3. Czy interesujesz się sytuacją gospodarczą w Polsce lub na świecie? 
 klasa dziennikarsko medialna, biznesowa
 
-Czy stwierdzenie; "jeden za wszystkich wszyscy za jednego" pasuje do Ciebie?
+4. Czy stwierdzenie; "jeden za wszystkich wszyscy za jednego" pasuje do Ciebie?
 klasa straży granicznej, 
 
-Czy aktywnie śledzisz, komentujesz sytuację polityczną w Polsce lub na świecie?
+5. Czy aktywnie śledzisz, komentujesz sytuację polityczną w Polsce lub na świecie?
 klasa dziennikarsko medialna
 
-Czy lubisz przedmioty ścisłe (chemia, fizyka, matematyka)?
+6. Czy lubisz przedmioty ścisłe (chemia, fizyka, matematyka)?
 klasa matematyczna
 
-Czy preferujesz naukę przedmiotów humanistycznych (historia, język polski)?
+7. Czy preferujesz naukę przedmiotów humanistycznych (historia, język polski)?
 klasa humanistyczna
 
-Czy  regularnie jesteś aktywny/a fizycznie lub uprawiasz sport?
+8. Czy  regularnie jesteś aktywny/a fizycznie lub uprawiasz sport?
 klasa straży granicznej, 
 
-Czy zwykle bez większego oporu wykonujesz prośby nauczyciela, trenera, rodziców?
+9. Czy zwykle bez większego oporu wykonujesz prośby nauczyciela, trenera, rodziców?
 klasa straży granicznej, szkoła branżowa
 
-Czy wspólna praca z innymi ludźmi sprawia Ci przyjemność?
+10. Czy wspólna praca z innymi ludźmi sprawia Ci przyjemność?
 klasa straży granicznej, szkoła branżowa
 
-Czy chciałbyś/ chciałabyś  w przyszłości pracować fizycznie (hydraulik, budowlaniec,  itp.)?
+11. Czy chciałbyś/ chciałabyś  w przyszłości pracować fizycznie (hydraulik, budowlaniec,  itp.)?
 szkoła branżowa
 
-Czy w przyszłości chciałbyś/ chciałabyś zdobyć wyższe wykształcenie?
+12. Czy w przyszłości chciałbyś/ chciałabyś zdobyć wyższe wykształcenie?
 klasa biznesowa, dziennikarsko medialna, matematyczna, humanistyczna, straży granicznej
 
-Czy lubisz "majsterkować"?
+13. Czy lubisz "majsterkować"?
 szkoła branżowa
 
-Czy chiałbyś/ chciałabyś szybko zarabiać własne pieniądze?
+14. Czy chiałbyś/ chciałabyś szybko zarabiać własne pieniądze?
 szkoła branżowa
 
-Czy lubisz spędzać czas w mediach społecznościowych?
+15. Czy lubisz spędzać czas w mediach społecznościowych?
 klasa dziennikarsko-medialna
 
-Czy powiedzenie "lepsze deko handlu niż kilo roboty" pasuje do Ciebie?
+16. Czy powiedzenie "lepsze deko handlu niż kilo roboty" pasuje do Ciebie?
 klasa biznesowa
 
-Czy lubisz dbać o innych (ich potrzeby, bezpieczeństwo)?
+17. Czy lubisz dbać o innych (ich potrzeby, bezpieczeństwo)?
 klasa straży granicznej
 
-Czy z łatwością napiszesz wypracowanie na większość zadanych tematów?
+18. Czy z łatwością napiszesz wypracowanie na większość zadanych tematów?
 klasa humanistyczna, dziennikarsko medialna

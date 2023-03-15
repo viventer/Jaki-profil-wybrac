@@ -1,6 +1,6 @@
 .instrukcja {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -12,7 +12,6 @@
 .questions-box {
   display: flex;
   flex-direction: column;
-  row-gap: 2em;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -25,7 +24,10 @@
 
 .answer {
   margin-top: 5px;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+  background-color: #3d3d3d;
+  padding: 5px 20px;
+  margin-bottom: 20px;
 }
 
 .question {
@@ -34,12 +36,15 @@
 
 .question-content {
   margin-bottom: 10px;
+  font-size: 1.3rem;
 }
 
 .center {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .submit-button {
@@ -48,7 +53,8 @@
   background-color: lightskyblue;
   font-weight: 700;
   border: 2px solid white;
-  font-size: 1rem;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
 }
 
 .submit-button:hover {
@@ -66,4 +72,19 @@
   padding: 5px;
   color: black;
   font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: -5px;
+  font-size: 1.7rem;
+  display: none;
+}
+
+.result-profile {
+  font-size: 1.7rem;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.question input[type="radio"] {
+  transform: scale(2);
+  margin-left: 20px;
 }

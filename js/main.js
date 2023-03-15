@@ -4,6 +4,7 @@ submit_button.addEventListener("click", validation);
 
 function validation() {
   submit_button.style.display = "none";
+  result_header = document.querySelector(".result-header");
 
   let answer_1 = document.getElementsByName("answer-1");
   let answer_2 = document.getElementsByName("answer-2");
@@ -40,7 +41,6 @@ function validation() {
   if (answer_2[0].checked) {
     biznesowa += 1;
     dziennikarsko_medialna += 1;
-    straz_graniczna += 1;
     szkola_branzowa += 1;
   }
 
@@ -62,11 +62,11 @@ function validation() {
   }
 
   if (answer_7[0].checked) {
-    straz_graniczna += 1;
+    klasa_humanistyczna += 1;
   }
 
   if (answer_8[0].checked) {
-    szkola_branzowa += 1;
+    straz_graniczna += 1;
   }
 
   if (answer_9[0].checked) {
@@ -116,32 +116,47 @@ function validation() {
     dziennikarsko_medialna += 1;
   }
 
-  const profiles = [
-    [dziennikarsko_medialna, "profil dziennikarsko-medialny"],
-    [straz_graniczna, "profil straż graniczna"],
-    [szkola_branzowa, "profil branzowy"],
-    [biznesowa, "profil biznesowy"],
-    [matematyczna, "profil matematyczny"],
+  const profiles_results = [
+    dziennikarsko_medialna,
+    straz_graniczna,
+    klasa_humanistyczna,
+    biznesowa,
+    szkola_branzowa,
+    matematyczna,
   ];
 
-  let best_profiles = [[klasa_humanistyczna, "profil humanistyczny"]];
-  for (let profile of profiles) {
-    if (profile[0] > best_profiles[0][0]) {
-      best_profiles = profile;
-    } else if (profile[0] == best_profiles[0][0] && profile[0] != 0) {
-      best_profiles.push(profile);
-    }
-  }
+  const profiles = [
+    [klasa_humanistyczna, "humanistyczny"],
+    [dziennikarsko_medialna, "dziennikarsko-medialny"],
+    [straz_graniczna, "straż graniczna"],
+    [szkola_branzowa, "branżowy"],
+    [biznesowa, "biznesowy"],
+    [matematyczna, "matematyczny"],
+  ];
 
-  if (best_profiles[0] == 1) {
-    delete best_profiles[0];
-  }
+  let max = Math.max(...profiles_results);
 
   const result = document.querySelector(".result-profiles");
-  for (let i = 1; i < best_profiles.length; i++) {
-    result.innerHTML +=
-      '<p class="result-profile">' + best_profiles[i] + "</p>";
+
+  if (max == 0) {
+    result.innerHTML += '<p class="result-profile">Zaznacz coś ;)</p>';
+    setTimeout(function () {
+      window.location.reload();
+    }, 2000);
+  } else {
+    const best_profiles = [];
+
+    for (let profile of profiles) {
+      if (profile[0] == max) {
+        best_profiles.push(profile[1]);
+      }
+    }
+
+    result_header.style.display = "block";
+
+    for (let profile_name of best_profiles) {
+      result.innerHTML +=
+        '<p class="result-profile">&#8226 ' + profile_name + "</p>";
+    }
   }
-  console.log(best_profiles);
-  result.style = "display: block";
 }
