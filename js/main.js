@@ -9,105 +9,252 @@ function validation() {
   for (i = 1; i <= 18; i++) {
     answers.push(document.getElementsByName("answer-" + String(i)));
   }
-  let klasa_humanistyczna = 0;
-  let dziennikarsko_medialna = 0;
-  let straz_graniczna = 0;
-  let szkola_branzowa = 0;
-  let biznesowa = 0;
-  let matematyczna = 0;
+
+  let technik_informatyk = 0;
+  let technik_programista = 0;
+  let technik_mechatronik = 0;
+  let technik_chlodnictwa = 0;
+  let technik_operator_CNC = 0;
+  let technik_pojazdow_samochodowych = 0;
+  let technik_elektryk = 0;
+  let technik_grafiki = 0;
+  let technik_logistyk = 0;
+  let liceum_jezykowe = 0;
+  let liceum_matematyczne = 0;
+  let liceum_menedzerskie = 0;
+  let operator_obrabiarek = 0;
+  let mechanik_pojazdow = 0;
+  let elektryk = 0;
+  let elektromechanik_pojazdow = 0;
+  let fryzjer = 0;
 
   if (answers[0][0].checked) {
-    klasa_humanistyczna += 1;
-    dziennikarsko_medialna += 1;
-    straz_graniczna += 1;
-    szkola_branzowa += 1;
+    technik_logistyk += 1;
+    liceum_jezykowe += 1;
   }
 
   if (answers[1][0].checked) {
-    biznesowa += 1;
-    dziennikarsko_medialna += 1;
-    szkola_branzowa += 1;
+    technik_chlodnictwa += 1;
+    technik_operator_CNC += 1;
+    technik_pojazdow_samochodowych += 1;
+    operator_obrabiarek += 1;
+    mechanik_pojazdow += 1;
+    elektromechanik_pojazdow += 1;
   }
 
   if (answers[2][0].checked) {
-    dziennikarsko_medialna += 1;
-    biznesowa += 1;
+    operator_obrabiarek += 1;
+    liceum_menedzerskie += 1;
+    technik_programista += 1;
+    technik_operator_CNC += 1;
+    technik_logistyk += 1;
+    fryzjer += 1;
   }
 
   if (answers[3][0].checked) {
-    straz_graniczna += 1;
+    operator_obrabiarek += 1;
+    technik_operator_CNC += 1;
   }
 
   if (answers[4][0].checked) {
-    dziennikarsko_medialna += 1;
+    operator_obrabiarek += 1;
   }
 
   if (answers[5][0].checked) {
-    matematyczna += 1;
+    technik_pojazdow_samochodowych += 1;
+    mechanik_pojazdow += 1;
+    elektromechanik_pojazdow += 1;
   }
 
   if (answers[6][0].checked) {
-    klasa_humanistyczna += 1;
+    technik_pojazdow_samochodowych += 1;
+    mechanik_pojazdow += 1;
+    elektromechanik_pojazdow += 1;
   }
 
   if (answers[7][0].checked) {
-    straz_graniczna += 1;
+    technik_elektryk += 1;
+    technik_mechatronik += 1;
   }
 
   if (answers[8][0].checked) {
-    straz_graniczna += 1;
-    szkola_branzowa += 1;
+    technik_elektryk += 1;
+    technik_logistyk += 1;
+    elektryk += 1;
   }
 
   if (answers[9][0].checked) {
-    straz_graniczna += 1;
-    szkola_branzowa += 1;
+    elektromechanik_pojazdow += 1;
   }
 
   if (answers[10][0].checked) {
-    szkola_branzowa += 1;
+    operator_obrabiarek += 1;
+    mechanik_pojazdow += 1;
+    elektryk += 1;
+    elektromechanik_pojazdow += 1;
   }
 
   if (answers[11][0].checked) {
-    biznesowa += 1;
-    dziennikarsko_medialna += 1;
-    matematyczna += 1;
-    klasa_humanistyczna += 1;
-    straz_graniczna += 1;
+    fryzjer += 1;
   }
 
   if (answers[12][0].checked) {
-    szkola_branzowa += 1;
+    fryzjer += 1;
+    technik_grafiki += 1;
   }
 
   if (answers[13][0].checked) {
-    szkola_branzowa += 1;
+    fryzjer += 1;
+    liceum_menedzerskie += 1;
+    liceum_jezykowe += 1;
   }
 
   if (answers[14][0].checked) {
-    dziennikarsko_medialna += 1;
+    liceum_jezykowe += 1;
+    technik_logistyk += 1;
   }
 
   if (answers[15][0].checked) {
-    biznesowa += 1;
+    liceum_jezykowe += 1;
+    technik_logistyk += 1;
   }
 
   if (answers[16][0].checked) {
-    straz_graniczna += 1;
+    liceum_matematyczne += 1;
+    technik_informatyk += 1;
+    technik_programista += 1;
+    technik_mechatronik += 1;
+    liceum_menedzerskie += 1;
   }
 
   if (answers[17][0].checked) {
-    klasa_humanistyczna += 1;
-    dziennikarsko_medialna += 1;
+    liceum_matematyczne += 1;
+    technik_programista += 1;
+    technik_informatyk += 1;
+    liceum_menedzerskie += 1;
+    elektryk += 1;
+  }
+  if (answers[18][0].checked) {
+    liceum_matematyczne += 1;
+    technik_informatyk += 1;
+    technik_programista += 1;
+    technik_mechatronik += 1;
+    technik_logistyk += 1;
+  }
+  if (answers[19][0].checked) {
+    liceum_menedżerskie += 1;
+  }
+  if (answers[20][0].checked) {
+    liceum_menedżerskie += 1;
+  }
+  if (answers[21][0].checked) {
+    liceum_menedżerskie += 1;
+  }
+  if (answers[22][0].checked) {
+    liceum_menedżerskie += 1;
+    technik_programista += 1;
+    technik_logistyk += 1;
+  }
+  if (answers[23][0].checked) {
+    technik_informatyk += 1;
+    technik_programista += 1;
+  }
+  if (answers[24][0].checked) {
+    technik_informatyk += 1;
+  }
+  if (answers[25][0].checked) {
+    technik_informatyk += 1;
+    technik_programista += 1;
+    technik_mechatronik += 1;
+  }
+  if (answers[26][0].checked) {
+    technik_programista += 1;
+  }
+  if (answers[27][0].checked) {
+    technik_programista += 1;
+    liceum_matematyczne += 1;
+    technik_logistyk += 1;
+    technik_mechatronik += 1;
+  }
+  if (answers[28][0].checked) {
+    technik_programista += 1;
+  }
+  if (answers[29][0].checked) {
+    technik_mechatronik += 1;
+    technik_operator_CNC += 1;
+    technik_chłodnictwa_i_klimatyzacji += 1;
+  }
+  if (answers[30][0].checked) {
+    technik_mechatronik += 1;
+  }
+  if (answers[31][0].checked) {
+    technik_chłodnictwa_i_klimatyzacji += 1;
+  }
+  if (answers[32][0].checked) {
+    technik_chłodnictwa_i_klimatyzacji += 1;
+  }
+  if (answers[33][0].checked) {
+    technik_chłodnictwa_i_klimatyzacji += 1;
+    technik_mechatronik += 1;
+    technik_grafiki += 1;
+    technik_operator_CNC += 1;
+    Operator_Obrabiarek_Skrawających += 1;
+  }
+  if (answers[34][0].checked) {
+    technik_chłodnictwa_i_klimatyzacji += 1;
+  }
+  if (answers[35][0].checked) {
+    technik_operator_CNC += 1;
+  }
+  if (answers[36][0].checked) {
+    technik_operator_CNC += 1;
+  }
+  if (answers[37][0].checked) {
+    technik_operator_CNC += 1;
+  }
+  if (answers[38][0].checked) {
+    technik_pojazdow_samochodowych += 1;
+    technik_elektryk += 1;
+    technik_informatyk += 1;
+    mechanik_pojazdów_samochodowych += 1;
+    Elektryk += 1;
+    elektromechanik_pojazdów_samochodowych += 1;
+  }
+  if (answers[39][0].checked) {
+    technik_pojazdow_samochodowych += 1;
+  }
+  if (answers[40][0].checked) {
+    technik_elektryk += 1;
+    Elektryk += 1;
+  }
+  if (answers[41][0].checked) {
+    technik_grafiki += 1;
+  }
+  if (answers[42][0].checked) {
+    technik_grafiki += 1;
+  }
+  if (answers[43][0].checked) {
+    technik_logistyk += 1;
   }
 
   const profiles_results = [
-    dziennikarsko_medialna,
-    straz_graniczna,
-    klasa_humanistyczna,
-    biznesowa,
-    szkola_branzowa,
-    matematyczna,
+    technik_informatyk,
+    technik_programista,
+    technik_mechatronik,
+    technik_chlodnictwa,
+    technik_operator_CNC,
+    technik_pojazdow_samochodowych,
+    technik_elektryk,
+    technik_grafiki,
+    technik_logistyk,
+    liceum_jezykowe,
+    liceum_matematyczne,
+    liceum_menedzerskie,
+    operator_obrabiarek,
+    mechanik_pojazdow,
+    elektryk,
+    elektromechanik_pojazdow,
+    fryzjer,
   ];
 
   const profiles = [

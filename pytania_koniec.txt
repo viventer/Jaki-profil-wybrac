@@ -8,7 +8,7 @@ mechanik_pojazdów_samochodowych, elektromechanik_pojazdów_samochodowych
 
 2. Czy potrafisz planować swoją pracę?
 Operator_Obrabiarek_Skrawających, liceum_menedżerskie, technik_programista,
-technik_operator_CNC, technik_logistyk
+technik_operator_CNC, technik_logistyk, fryzjer
 
 3. Czy chciałbyś obsługiwać maszyny sterowane cyfrowo bądź programowo?
 Operator_Obrabiarek_Skrawających, technik_operator_CNC
@@ -133,8 +133,8 @@ technik_elektryk, Elektryk
 41. Czy interesujesz się grafiką?
 technik_grafiki
 
-43. Czy chciałbyś się nauczyć przygotowywać materiały do druku?
+42. Czy chciałbyś się nauczyć przygotowywać materiały do druku?
 technik_grafiki
 
-44. Czy interesujesz się usługami, produkcją, handlem?
+43. Czy interesujesz się usługami, produkcją, handlem?
 technik_logistyk
