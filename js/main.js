@@ -6,7 +6,7 @@ function validation() {
   result_header = document.querySelector(".result-header");
   let answers = [];
 
-  for (i = 1; i <= 18; i++) {
+  for (let i = 0; i <= 43; i++) {
     answers.push(document.getElementsByName("answer-" + String(i)));
   }
 
@@ -142,16 +142,16 @@ function validation() {
     technik_logistyk += 1;
   }
   if (answers[19][0].checked) {
-    liceum_menedżerskie += 1;
+    liceum_menedzerskie += 1;
   }
   if (answers[20][0].checked) {
-    liceum_menedżerskie += 1;
+    liceum_menedzerskie += 1;
   }
   if (answers[21][0].checked) {
-    liceum_menedżerskie += 1;
+    liceum_menedzerskie += 1;
   }
   if (answers[22][0].checked) {
-    liceum_menedżerskie += 1;
+    liceum_menedzerskie += 1;
     technik_programista += 1;
     technik_logistyk += 1;
   }
@@ -182,26 +182,26 @@ function validation() {
   if (answers[29][0].checked) {
     technik_mechatronik += 1;
     technik_operator_CNC += 1;
-    technik_chłodnictwa_i_klimatyzacji += 1;
+    technik_chlodnictwa += 1;
   }
   if (answers[30][0].checked) {
     technik_mechatronik += 1;
   }
   if (answers[31][0].checked) {
-    technik_chłodnictwa_i_klimatyzacji += 1;
+    technik_chlodnictwa += 1;
   }
   if (answers[32][0].checked) {
-    technik_chłodnictwa_i_klimatyzacji += 1;
+    technik_chlodnictwa += 1;
   }
   if (answers[33][0].checked) {
-    technik_chłodnictwa_i_klimatyzacji += 1;
+    technik_chlodnictwa += 1;
     technik_mechatronik += 1;
     technik_grafiki += 1;
     technik_operator_CNC += 1;
-    Operator_Obrabiarek_Skrawających += 1;
+    operator_obrabiarek += 1;
   }
   if (answers[34][0].checked) {
-    technik_chłodnictwa_i_klimatyzacji += 1;
+    technik_chlodnictwa += 1;
   }
   if (answers[35][0].checked) {
     technik_operator_CNC += 1;
@@ -216,16 +216,16 @@ function validation() {
     technik_pojazdow_samochodowych += 1;
     technik_elektryk += 1;
     technik_informatyk += 1;
-    mechanik_pojazdów_samochodowych += 1;
-    Elektryk += 1;
-    elektromechanik_pojazdów_samochodowych += 1;
+    mechanik_pojazdow += 1;
+    elektryk += 1;
+    elektromechanik_pojazdow += 1;
   }
   if (answers[39][0].checked) {
     technik_pojazdow_samochodowych += 1;
   }
   if (answers[40][0].checked) {
     technik_elektryk += 1;
-    Elektryk += 1;
+    elektryk += 1;
   }
   if (answers[41][0].checked) {
     technik_grafiki += 1;

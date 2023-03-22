@@ -1,12 +1,14 @@
 .instrukcja {
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .line {
   width: 100%;
-  border: 1px solid white;
+  border: 0.05rem solid white;
 }
 
 .questions-box {
@@ -15,7 +17,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  margin-top: 20px;
+  margin-top: 1.6rem;
 }
 
 .question label {
@@ -23,20 +25,21 @@
 }
 
 .answer {
-  margin-top: 5px;
-  font-size: 1.7rem;
+  margin-top: 0.25rem;
+  font-size: 1.5rem;
   background-color: #3d3d3d;
-  padding: 5px 20px;
-  margin-bottom: 20px;
+  padding: 0.25rem 1rem;
+  margin-bottom: 0.6rem;
+  position: relative;
 }
 
 .question {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .question-content {
-  margin-bottom: 10px;
-  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
 }
 
 .center {
@@ -48,13 +51,13 @@
 }
 
 .submit-button {
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.5rem;
   background-color: lightskyblue;
   font-weight: 700;
-  border: 2px solid white;
-  font-size: 1.7rem;
-  margin-bottom: 20px;
+  border: 0.15rem solid white;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .submit-button:hover {
@@ -69,22 +72,59 @@
   width: 100%;
   background-color: lightskyblue;
   text-align: center;
-  padding: 5px;
+  padding: 0.3rem;
   color: black;
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: -5px;
-  font-size: 1.7rem;
+  margin-bottom: -0.25rem;
+  font-size: 1.5rem;
   display: none;
 }
 
 .result-profile {
   font-size: 1.7rem;
   white-space: nowrap;
-  margin-left: 20px;
+  margin-left: 1.2rem;
 }
 
 .question input[type="radio"] {
-  transform: scale(2);
-  margin-left: 20px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0.5rem;
+  left: 3.9rem;
+  height: 1.36rem;
+  width: 1.36rem;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.answer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.answer input:checked ~ .checkmark {
+  background-color: rgb(0, 139, 182);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.answer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.answer .checkmark:after {
+  top: 0.43rem;
+  left: 0.43rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: white;
 }
