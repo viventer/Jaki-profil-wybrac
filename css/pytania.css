@@ -25,11 +25,11 @@
 }
 
 .answer {
-  margin-top: 0.25rem;
+  margin-top: 0.3rem;
   font-size: 1.5rem;
-  background-color: #3d3d3d;
-  padding: 0.25rem 1rem;
-  margin-bottom: 0.6rem;
+  background-color: #3e3e3e;
+  padding: 0.3rem 1rem;
+  margin-bottom: 0.65rem;
   position: relative;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .question-content {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
   font-size: 1.2rem;
 }
 
@@ -75,14 +75,13 @@
   padding: 0.3rem;
   color: black;
   font-weight: 700;
-  margin-bottom: -0.25rem;
   font-size: 1.5rem;
   display: none;
+  margin: 0;
 }
 
 .result-profile {
-  font-size: 1.7rem;
-  white-space: nowrap;
+  font-size: 1.2rem;
   margin-left: 1.2rem;
 }
 
@@ -127,4 +126,16 @@
   height: 0.5rem;
   border-radius: 50%;
   background: white;
+}
+
+.header {
+  width: 100%;
+  font-size: 1.9rem;
+  color: white;
+  font-weight: 700;
+  font-family: Arial;
+  text-align: center;
+  background-color: lightskyblue;
+  color: black;
+  padding: 0.5rem;
 }

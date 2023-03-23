@@ -271,7 +271,7 @@ function validation() {
     [technik_elektryk, "technik elektryk"],
     [technik_grafiki, "technik grafik"],
     [technik_logistyk, "technik logistyk"],
-    [liceum_jezykowe, "liceum jęyzkowe"],
+    [liceum_jezykowe, "liceum językowe"],
     [liceum_matematyczne, "liceum matematyczne"],
     [liceum_menedzerskie, "liceum menedżerskie"],
     [operator_obrabiarek, "operator obrabiarek skrawających"],
