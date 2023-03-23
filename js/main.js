@@ -6,7 +6,7 @@ function validation() {
   result_header = document.querySelector(".result-header");
   let answers = [];
 
-  for (let i = 0; i <= 43; i++) {
+  for (let i = 0; i <= 44; i++) {
     answers.push(document.getElementsByName("answer-" + String(i)));
   }
 
@@ -40,13 +40,13 @@ function validation() {
     operator_obrabiarek += 1;
     mechanik_pojazdow += 1;
     elektromechanik_pojazdow += 1;
+    technik_elektryk += 1;
+    elektryk += 1;
   }
 
   if (answers[2][0].checked) {
     operator_obrabiarek += 1;
     liceum_menedzerskie += 1;
-    technik_programista += 1;
-    technik_operator_CNC += 1;
     technik_logistyk += 1;
     fryzjer += 1;
   }
@@ -75,12 +75,14 @@ function validation() {
   if (answers[7][0].checked) {
     technik_elektryk += 1;
     technik_mechatronik += 1;
+    elektryk += 1;
   }
 
   if (answers[8][0].checked) {
     technik_elektryk += 1;
     technik_logistyk += 1;
     elektryk += 1;
+    fryzjer += 1;
   }
 
   if (answers[9][0].checked) {
@@ -92,6 +94,7 @@ function validation() {
     mechanik_pojazdow += 1;
     elektryk += 1;
     elektromechanik_pojazdow += 1;
+    fryzjer += 1;
   }
 
   if (answers[11][0].checked) {
@@ -105,24 +108,20 @@ function validation() {
 
   if (answers[13][0].checked) {
     fryzjer += 1;
-    liceum_menedzerskie += 1;
     liceum_jezykowe += 1;
   }
 
   if (answers[14][0].checked) {
     liceum_jezykowe += 1;
-    technik_logistyk += 1;
   }
 
   if (answers[15][0].checked) {
     liceum_jezykowe += 1;
-    technik_logistyk += 1;
   }
 
   if (answers[16][0].checked) {
     liceum_matematyczne += 1;
     technik_informatyk += 1;
-    technik_programista += 1;
     technik_mechatronik += 1;
     liceum_menedzerskie += 1;
   }
@@ -143,6 +142,7 @@ function validation() {
   }
   if (answers[19][0].checked) {
     liceum_menedzerskie += 1;
+    liceum_matematyczne += 1;
   }
   if (answers[20][0].checked) {
     liceum_menedzerskie += 1;
@@ -157,7 +157,6 @@ function validation() {
   }
   if (answers[23][0].checked) {
     technik_informatyk += 1;
-    technik_programista += 1;
   }
   if (answers[24][0].checked) {
     technik_informatyk += 1;
@@ -174,10 +173,10 @@ function validation() {
     technik_programista += 1;
     liceum_matematyczne += 1;
     technik_logistyk += 1;
-    technik_mechatronik += 1;
   }
   if (answers[28][0].checked) {
     technik_programista += 1;
+    liceum_matematyczne += 1;
   }
   if (answers[29][0].checked) {
     technik_mechatronik += 1;
@@ -208,6 +207,7 @@ function validation() {
   }
   if (answers[36][0].checked) {
     technik_operator_CNC += 1;
+    technik_grafiki += 1;
   }
   if (answers[37][0].checked) {
     technik_operator_CNC += 1;
@@ -237,6 +237,10 @@ function validation() {
     technik_logistyk += 1;
   }
 
+  if (answers[44][0].checked) {
+    liceum_jezykowe += 1;
+  }
+
   const profiles_results = [
     technik_informatyk,
     technik_programista,
@@ -258,12 +262,23 @@ function validation() {
   ];
 
   const profiles = [
-    [klasa_humanistyczna, "humanistyczny"],
-    [dziennikarsko_medialna, "dziennikarsko-medialny"],
-    [straz_graniczna, "straż graniczna"],
-    [szkola_branzowa, "branżowy"],
-    [biznesowa, "biznesowy"],
-    [matematyczna, "matematyczny"],
+    [technik_informatyk, "technik informatyk"],
+    [technik_programista, "technik programista"],
+    [technik_mechatronik, "technik mechatronik"],
+    [technik_chlodnictwa, "technik chłodnictwa i klimatyzacji"],
+    [technik_operator_CNC, "technik operator CNC"],
+    [technik_pojazdow_samochodowych, "technik pojazdów samochodowych"],
+    [technik_elektryk, "technik elektryk"],
+    [technik_grafiki, "technik grafik"],
+    [technik_logistyk, "technik logistyk"],
+    [liceum_jezykowe, "liceum jęyzkowe"],
+    [liceum_matematyczne, "liceum matematyczne"],
+    [liceum_menedzerskie, "liceum menedżerskie"],
+    [operator_obrabiarek, "operator obrabiarek skrawających"],
+    [mechanik_pojazdow, "mechanik pojazdów samochodowych"],
+    [elektryk, "elektryk"],
+    [elektromechanik_pojazdow, "elektromechanik pojazdów samochodowych"],
+    [fryzjer, "fryzjer"],
   ];
 
   let max = Math.max(...profiles_results);
