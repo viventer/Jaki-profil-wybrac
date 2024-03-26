@@ -1,8 +1,6 @@
 .instrukcja {
   font-weight: bold;
   font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   background-color: rgba(135, 206, 250, 0.1);
 }
 
@@ -26,9 +24,9 @@
 
 .answer {
   margin-top: 0.3rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   background-color: #3e3e3e;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   margin-bottom: 0.65rem;
   position: relative;
 }
@@ -72,27 +70,27 @@
 }
 
 .submit-button:hover {
-  filter: brightness(0.8);
+  filter: brightness(1.5);
   cursor: pointer;
 }
 
 .submit-button:active {
-  filter: brightness(0.5);
+  filter: brightness(2);
 }
 
 .result-header {
   width: 100%;
-  background-color: lightskyblue;
+  background-color: rgba(135, 206, 250, 0.25);
   text-align: center;
   padding: 0.3rem;
-  color: black;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: none;
   margin: 0;
 }
 
 .result-profile {
+  margin: 1rem;
   font-size: 1.2rem;
   margin-left: 1.2rem;
 }
@@ -131,10 +129,16 @@
 }
 
 .answer .checkmark:after {
-  top: 0.35rem;
-  left: 0.35rem;
-  width: 0.5rem;
-  height: 0.5rem;
+  top: 0.3rem;
+  left: 0.3rem;
+  width: 0.6rem;
+  height: 0.6rem;
   border-radius: 50%;
   background: white;
+}
+
+@media (width: 500px) {
+  .instrukcja > p {
+    padding: 0.5rem 1rem;
+  }
 }
