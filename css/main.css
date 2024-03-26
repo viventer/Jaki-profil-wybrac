@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
 body {
   background-color: #333333;
   margin: 0;
@@ -9,12 +16,35 @@ body {
   user-select: none;
   cursor: pointer;
   position: relative;
+  margin-bottom: 3rem;
 }
 
 html,
 body {
   overflow-x: clip;
   scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+  width: 100%;
+  font-weight: 700;
+  font-family: Arial;
+  background-color: rgba(135, 206, 250, 0.25);
+  border-bottom: 0.1rem solid rgba(135, 206, 250);
+  padding: 0.5rem 1.5rem;
+}
+
+header > img {
+  width: 4rem;
+  object-fit: contain;
+}
+
+header > h1 {
+  font-size: 2rem;
 }
 
 @media screen and (orientation: landscape) {

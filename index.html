@@ -1,567 +1,711 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaki kierunek wybrać?</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/pytania.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wybór szkoły</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/pytania.css">
-</head>
+  <body>
+    <header class="header">
+      <img src="media/logo.png" alt="logo szkoły" />
+      <h1>Jaki kierunek wybrać?</h1>
+    </header>
 
-<body>
-  <header class="header">Jaki kierunek wybrać?</header>
-
-  <div class="instrukcja">
-    <p>Odpowiedz na poniższe pytania aby poznać pasujące do ciebie profile</p>
-  </div>
-
-  <div class="line"></div>
-
-  <div class="questions-box">
-    <div class="question">
-      <label class="question-content">Czy interesujesz się geografią? </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-0">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-0">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy lubisz pracę fizyczną?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-1">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-1">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy potrafisz planować swoją pracę? </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-2">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-2">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy chciałbyś obsługiwać maszyny sterowane cyfrowo bądź programowo? </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-3">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-3">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy interesuje Cię praca np. na tokarce, frezarce? </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-4">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-4">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy interesujesz się branżą samochodową? </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-5">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-5">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy lubisz naprawiać samochody, skutery, motory?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-6">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-6">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy interesujesz się elektryką?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-7">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-7">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy potrafisz przewidzieć/planować, jakie mogą być skutki wykonywanych
-        działań?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-8">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-8">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy interesują Cię jak działają różne układy elektroniczne w samochodach?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-9">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-9">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy chciałbyś/chciałabyś szybko zarabiać własne pieniądze?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-10">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-10">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy lubisz czesać i układać włosy?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-11">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-11">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy jesteś twórczy i lubisz modę?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-12">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-12">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy łatwo nawiązujesz i podtrzymujesz rozmowy z nowo poznanymi osobami?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-13">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-13">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy nauka języków obcych sprawia Ci przyjemność?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-14">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-14">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesują Cię podróże po świecie i odwiedzanie miejsca o różnej kulturze i
-        języku?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-15">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-15">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy lubisz uczyć się przedmiotów ścisłych, takich jak: matematyka, fizyka?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-16">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-16">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy posiadasz umiejętności logicznego myślenia i rozwiązywania problemów?</label>
-      <label class="answer">tak
-        <input type="radio" name="answer-17">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-17">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy w przyszłości chciałbyś studiować kierunki techniczne na uniwersytecie,
-        politechnice, czy też innej uczelni technicznej?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-18">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-18">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesujesz się naukami matematycznymi oraz przyrodniczymi?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-19">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-19">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy chciałbyś poszerzyć zdolność logicznego myślenia oraz przedsiębiorczości?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-20">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-20">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesujesz się ekonomią i otaczającym Cię światem?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-21">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-21">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy lubisz pracować w grupie?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-22">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-22">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje Cię budowa i działanie komputera?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-23">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-23">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesujesz się działaniem sieci komputerowych?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-24">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-24">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesujesz się nowoczesną technologią?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-25">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-25">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje cię programowanie?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-26">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-26">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy lubisz rozwiązywać zagadki logiczne?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-27">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-27">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy posiadasz umiejętności abstrakcyjnego myślenia?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-28">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-28">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje Cię automatyka przemysłowa?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-29">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-29">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje Cię robotyka?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-30">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-30">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesują Cię źródła energii odnawialnej i nieodnawialnej?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-31">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-31">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje Cię działanie klimatyzacji?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-32">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-32">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy dobrze radzisz sobie z rysunkiem technicznym i planowaniem przestrzennym?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-33">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-33">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy ciekawi Cię hydraulika i zasady jej funkcjonowania?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-34">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-34">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje Cię działanie obrabiarek?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-35">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-35">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy masz wyobraźnię przestrzenną?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-36">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-36">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesuje Cię programowanie maszyn CNC?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-37">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-37">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy starasz się znaleźć przyczynę usterek w naprawianych sprzętach?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-38">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-38">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesujesz się obsługą programów komputerowych stosowanych w obsłudze i
-        naprawie pojazdów samochodowych?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-39">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-39">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy lubisz zajmować się instalacjami elektrycznymi?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-40">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-40">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy interesujesz się grafiką?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-41">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-41">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class=" question">
-      <label class="question-content">Czy chciałbyś się nauczyć przygotowywać materiały do druku?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-42">
-        <span class="checkmark"></span>
-      </label>
-      <label class=" answer">nie
-        <input type="radio" name="answer-42">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy interesujesz się usługami, produkcją, handlem?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-43">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-43">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="question">
-      <label class="question-content">Czy swoją przyszłość wiążesz z umiejętnościami językowymi?
-      </label>
-      <label class="answer">tak
-        <input type="radio" name="answer-44">
-        <span class="checkmark"></span>
-      </label>
-      <label class="answer">nie
-        <input type="radio" name="answer-44">
-        <span class="checkmark"></span>
-      </label>
+    <div class="instrukcja">
+      <p>Odpowiedz na poniższe pytania aby poznać pasujące do ciebie profile</p>
     </div>
 
-
-  </div>
-  <div class=" center">
-    <div class="submit-button-row">
-      <button class="submit-button">PRZEŚLIJ</button>
+    <div class="questions-box">
+      <div class="question">
+        <label class="question-content">Czy interesujesz się geografią? </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-0" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-0" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content">Czy lubisz pracę fizyczną?</label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-1" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-1" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy potrafisz planować swoją pracę?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-2" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-2" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy chciałbyś obsługiwać maszyny sterowane cyfrowo bądź programowo?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-3" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-3" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje Cię praca np. na tokarce, frezarce?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-4" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-4" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się branżą samochodową?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-5" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-5" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy lubisz naprawiać samochody, skutery, motory?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-6" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-6" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content">Czy interesujesz się elektryką?</label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-7" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-7" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy potrafisz przewidzieć/planować, jakie mogą być skutki
+          wykonywanych działań?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-8" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-8" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesują Cię jak działają różne układy elektroniczne w
+          samochodach?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-9" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-9" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy chciałbyś/chciałabyś szybko zarabiać własne pieniądze?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-10" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-10" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy lubisz czesać i układać włosy?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-11" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-11" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy jesteś twórczy i lubisz modę?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-12" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-12" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy łatwo nawiązujesz i podtrzymujesz rozmowy z nowo poznanymi
+          osobami?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-13" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-13" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy nauka języków obcych sprawia Ci przyjemność?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-14" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-14" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesują Cię podróże po świecie i odwiedzanie miejsca o różnej
+          kulturze i języku?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-15" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-15" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy lubisz uczyć się przedmiotów ścisłych, takich jak: matematyka,
+          fizyka?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-16" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-16" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy posiadasz umiejętności logicznego myślenia i rozwiązywania
+          problemów?</label
+        >
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-17" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-17" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy w przyszłości chciałbyś studiować kierunki techniczne na
+          uniwersytecie, politechnice, czy też innej uczelni technicznej?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-18" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-18" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się naukami matematycznymi oraz przyrodniczymi?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-19" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-19" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy chciałbyś poszerzyć zdolność logicznego myślenia oraz
+          przedsiębiorczości?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-20" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-20" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się ekonomią i otaczającym Cię światem?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-21" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-21" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content">Czy lubisz pracować w grupie? </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-22" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-22" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje Cię budowa i działanie komputera?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-23" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-23" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się działaniem sieci komputerowych?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-24" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-24" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się nowoczesną technologią?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-25" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-25" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje cię programowanie?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-26" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-26" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy lubisz rozwiązywać zagadki logiczne?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-27" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-27" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy posiadasz umiejętności abstrakcyjnego myślenia?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-28" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-28" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje Cię automatyka przemysłowa?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-29" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-29" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content">Czy interesuje Cię robotyka? </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-30" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-30" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesują Cię źródła energii odnawialnej i nieodnawialnej?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-31" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-31" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje Cię działanie klimatyzacji?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-32" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-32" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy dobrze radzisz sobie z rysunkiem technicznym i planowaniem
+          przestrzennym?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-33" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-33" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy ciekawi Cię hydraulika i zasady jej funkcjonowania?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-34" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-34" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje Cię działanie obrabiarek?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-35" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-35" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy masz wyobraźnię przestrzenną?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-36" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-36" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesuje Cię programowanie maszyn CNC?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-37" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-37" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy starasz się znaleźć przyczynę usterek w naprawianych sprzętach?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-38" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-38" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się obsługą programów komputerowych stosowanych w
+          obsłudze i naprawie pojazdów samochodowych?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-39" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-39" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy lubisz zajmować się instalacjami elektrycznymi?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-40" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-40" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content">Czy interesujesz się grafiką? </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-41" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-41" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy chciałbyś się nauczyć przygotowywać materiały do druku?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-42" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-42" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy interesujesz się usługami, produkcją, handlem?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-43" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-43" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="question">
+        <label class="question-content"
+          >Czy swoją przyszłość wiążesz z umiejętnościami językowymi?
+        </label>
+        <label class="answer"
+          >tak
+          <input type="radio" name="answer-44" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="answer"
+          >nie
+          <input type="radio" name="answer-44" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
     </div>
-  </div>
-  <div class="result">
-    <p class="result-header">Oto profile które najbardziej do Ciebie pasują</p>
-    <div class="result-profiles">
+    <div class="center">
+      <div class="submit-button-row">
+        <button class="submit-button">PRZEŚLIJ</button>
+      </div>
     </div>
-  </div>
+    <div class="result">
+      <p class="result-header">
+        Oto profile które najbardziej do Ciebie pasują
+      </p>
+      <div class="result-profiles"></div>
+    </div>
 
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
